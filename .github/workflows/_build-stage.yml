@@ -29,11 +29,11 @@ on:
         required: true
 
 env:
-  BOTTLE_ROOT_URL: https://github.com/fabiomanz/intel-bottles/releases/download/bottles
+  BOTTLE_ROOT_URL: https://github.com/noelsorameso/intel-bottles/releases/download/bottles
   RELEASE_TAG: bottles
-  BOTTLES_REPO: fabiomanz/intel-bottles
-  FORK_REPO: fabiomanz/homebrew-core
-  HOMEBREW_CORE_GIT_REMOTE: https://github.com/fabiomanz/homebrew-core
+  BOTTLES_REPO: noelsorameso/intel-bottles
+  FORK_REPO: noelsorameso/homebrew-core
+  HOMEBREW_CORE_GIT_REMOTE: https://github.com/noelsorameso/homebrew-core
   HOMEBREW_NO_INSTALL_FROM_API: 1
   HOMEBREW_NO_ANALYTICS: 1
   HOMEBREW_NO_ASK: 1

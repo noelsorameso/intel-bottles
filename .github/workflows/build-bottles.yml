@@ -53,7 +53,7 @@ jobs:
       wave4: ${{ steps.plan.outputs.wave4 }}
       missing_count: ${{ steps.plan.outputs.missing_count }}
     env:
-      HOMEBREW_CORE_GIT_REMOTE: https://github.com/fabiomanz/homebrew-core
+      HOMEBREW_CORE_GIT_REMOTE: https://github.com/noelsorameso/homebrew-core
       HOMEBREW_NO_INSTALL_FROM_API: 1
       HOMEBREW_NO_ANALYTICS: 1
       HOMEBREW_NO_ASK: 1
