@@ -5,24 +5,24 @@
       "pkg_version": "5.8.4",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/x/xz.rb",
       "tap_git_path": "Formula/x/xz.rb",
-      "tap_git_revision": "f5900eedc815143778a79d3c0448054ab00be974",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "d6a15d186e4fcb5e53343a2d2b0cee46f9c43fe6",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "General-purpose data compression with high compression ratio",
       "license": "0BSD AND GPL-2.0-or-later",
       "homepage": "https://tukaani.org/xz/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-01T12:29:55Z",
+      "date": "2026-11-21T02:07:30Z",
       "tags": {
         "tahoe": {
           "filename": "xz-5.8.4.tahoe.bottle.tar.gz",
           "local_filename": "xz--5.8.4.tahoe.bottle.tar.gz",
-          "sha256": "54a648c4197b0299ee2d37527ca6a23447abe65342f8f8c0ed68e154f4593b0f",
+          "sha256": "0d4d75d551188426f257a0397cf045c82522f3b62d368502b6f23a641a0468e2",
           "tab": {
-            "homebrew_version": "7.0.7",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/liblzma.pc"
             ],
@@ -197,7 +197,7 @@
             "share/man/man1/xzless.1",
             "share/man/man1/xzmore.1"
           ],
-          "installed_size": 2525626
+          "installed_size": 2525627
         }
       }
     }
