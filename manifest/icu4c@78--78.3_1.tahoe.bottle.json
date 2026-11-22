@@ -5,24 +5,24 @@
       "pkg_version": "78.3_1",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/i/icu4c@78.rb",
       "tap_git_path": "Formula/i/icu4c@78.rb",
-      "tap_git_revision": "e76f87634795c83c1559cbff4053ba045e697285",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "01d4e481e4f1889f980ce6781c9d62f3c4f1dfef",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "C/C++ and Java libraries for Unicode and globalization",
       "license": "Unicode-3.0",
       "homepage": "https://icu.unicode.org/home"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-25T10:16:56Z",
+      "date": "2026-11-22T08:16:32Z",
       "tags": {
         "tahoe": {
           "filename": "icu4c%4078-78.3_1.tahoe.bottle.tar.gz",
           "local_filename": "icu4c@78--78.3_1.tahoe.bottle.tar.gz",
-          "sha256": "19d517bbd6bcf47c146d0e1eb823d6d836ea987ecb494d1d9b3dcb9566ed4d0c",
+          "sha256": "c5870834aa904a080e5e847f5537c45a0ecd7f2b32b0266b5febea490ce129b8",
           "tab": {
-            "homebrew_version": "7.0.10",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "bin/icu-config",
               "lib/icu/78.3/Makefile.inc",
@@ -397,7 +397,7 @@
             "share/man/man8/gensprep.8",
             "share/man/man8/icupkg.8"
           ],
-          "installed_size": 86698243
+          "installed_size": 86698364
         }
       }
     }
