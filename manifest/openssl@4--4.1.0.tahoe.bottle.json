@@ -5,24 +5,24 @@
       "pkg_version": "4.1.0",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/o/openssl@4.rb",
       "tap_git_path": "Formula/o/openssl@4.rb",
-      "tap_git_revision": "e76f87634795c83c1559cbff4053ba045e697285",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "01d4e481e4f1889f980ce6781c9d62f3c4f1dfef",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Cryptography and SSL/TLS Toolkit",
       "license": "Apache-2.0",
       "homepage": "https://openssl-library.org"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "/usr/local/Cellar",
       "rebuild": 0,
-      "date": "2026-10-25T10:27:46Z",
+      "date": "2026-11-22T08:10:02Z",
       "tags": {
         "tahoe": {
           "filename": "openssl%404-4.1.0.tahoe.bottle.tar.gz",
           "local_filename": "openssl@4--4.1.0.tahoe.bottle.tar.gz",
-          "sha256": "665a16d966b1a4542d1e9dd6022bba18468402ce6a82edd578a484de82a1429f",
+          "sha256": "e4fcb6159895e749a8577f77eac976727981f036f20ffbfa0a3b0e56298f73b6",
           "tab": {
-            "homebrew_version": "7.0.10",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/libcrypto.pc",
               "lib/pkgconfig/libssl.pc",
@@ -43,10 +43,10 @@
             "runtime_dependencies": [
               {
                 "full_name": "ca-certificates",
-                "version": "2026-10-20",
+                "version": "2026-11-05",
                 "revision": 0,
                 "bottle_rebuild": 0,
-                "pkg_version": "2026-10-20",
+                "pkg_version": "2026-11-05",
                 "declared_directly": true,
                 "compatibility_version": 1
               }
@@ -88,11 +88,6 @@
               "offset": 6600496
             },
             {
-              "path": "lib/libcrypto.a",
-              "string": "/usr/local/etc/openssl@4/cert.pem",
-              "offset": 6600527
-            },
-            {
               "path": "lib/libcrypto.4.dylib",
               "string": "/usr/local/etc/openssl@4/ct_log_list.cnf",
               "offset": 3524861
@@ -111,38 +106,33 @@
               "path": "lib/libcrypto.4.dylib",
               "string": "/usr/local/etc/openssl@4/certs",
               "offset": 3653275
-            },
-            {
-              "path": "lib/libcrypto.4.dylib",
-              "string": "/usr/local/etc/openssl@4/cert.pem",
-              "offset": 3653306
             }
           ],
           "sbom": {
             "documentDescribes": [
-              "SPDXRef-Package-SPDXRef-ca-certificates-2026-10-20",
+              "SPDXRef-Package-SPDXRef-ca-certificates-2026-11-05",
               "SPDXRef-Compiler"
             ],
             "packages": [
               {
-                "SPDXID": "SPDXRef-Package-SPDXRef-ca-certificates-2026-10-20",
+                "SPDXID": "SPDXRef-Package-SPDXRef-ca-certificates-2026-11-05",
                 "name": "ca-certificates",
-                "versionInfo": "2026-10-20",
+                "versionInfo": "2026-11-05",
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "MPL-2.0",
-                "downloadLocation": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:8589f4e61b3afcc5ea375aab11af1c891ec4c94421c699c2a5a4765078de4443",
+                "downloadLocation": "https://ghcr.io/v2/homebrew/core/ca-certificates/blobs/sha256:8a5a35e1a3223e6bc6ca7c853e0ac3d2568de2cc329b61688682bdf57165dab9",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "8589f4e61b3afcc5ea375aab11af1c891ec4c94421c699c2a5a4765078de4443"
+                    "checksumValue": "8a5a35e1a3223e6bc6ca7c853e0ac3d2568de2cc329b61688682bdf57165dab9"
                   }
                 ],
                 "externalRefs": [
                   {
                     "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/ca-certificates@2026-10-20",
+                    "referenceLocator": "pkg:brew/ca-certificates@2026-11-05",
                     "referenceType": "purl"
                   }
                 ]
@@ -162,7 +152,7 @@
             ],
             "relationships": [
               {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-ca-certificates-2026-10-20",
+                "spdxElementId": "SPDXRef-Package-SPDXRef-ca-certificates-2026-11-05",
                 "relationshipType": "RUNTIME_DEPENDENCY_OF",
                 "relatedSpdxElement": "SPDXRef-Bottle-openssl.40.4"
               },
@@ -7038,7 +7028,7 @@
             "share/man/man7/ssl.7ssl.gz",
             "share/man/man7/x509.7ssl.gz"
           ],
-          "installed_size": 25134860
+          "installed_size": 25134883
         }
       }
     }
