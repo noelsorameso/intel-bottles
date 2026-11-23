@@ -1,0 +1,94 @@
+{
+  "yyjson": {
+    "formula": {
+      "name": "yyjson",
+      "pkg_version": "0.13.0",
+      "path": "Library/Taps/homebrew/homebrew-core/Formula/y/yyjson.rb",
+      "tap_git_path": "Formula/y/yyjson.rb",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
+      "desc": "High performance JSON library written in ANSI C",
+      "license": "MIT",
+      "homepage": "https://ibireme.github.io/yyjson/doc/doxygen/html/"
+    },
+    "bottle": {
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
+      "cellar": "any",
+      "rebuild": 0,
+      "date": "2026-11-23T05:19:05Z",
+      "tags": {
+        "tahoe": {
+          "filename": "yyjson-0.13.0.tahoe.bottle.tar.gz",
+          "local_filename": "yyjson--0.13.0.tahoe.bottle.tar.gz",
+          "sha256": "41b3bac7fc8fcf8cc55201e98125be2f550670961bf367eebf29c53f69f76de0",
+          "tab": {
+            "homebrew_version": "7.0.15",
+            "changed_files": [
+              "lib/pkgconfig/yyjson.pc"
+            ],
+            "linkage_files": [
+              "lib/libyyjson.0.13.0.dylib"
+            ],
+            "binary_relocation_files": [],
+            "source_modified_time": 1788891415,
+            "compiler": "clang",
+            "runtime_dependencies": [],
+            "arch": "x86_64",
+            "built_on": {
+              "os": "Macintosh",
+              "os_version": "macOS 26.6",
+              "cpu_family": "ivybridge",
+              "xcode": "26.6",
+              "clt": "26.6.0.0.1781586589",
+              "preferred_perl": "5.34"
+            }
+          },
+          "binary_relocation_diagnostics": [],
+          "sbom": {
+            "documentDescribes": [
+              "SPDXRef-Compiler"
+            ],
+            "packages": [
+              {
+                "SPDXID": "SPDXRef-Compiler",
+                "name": "clang",
+                "versionInfo": "26.6",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "NOASSERTION",
+                "copyrightText": "NOASSERTION",
+                "downloadLocation": "NOASSERTION",
+                "checksums": [],
+                "externalRefs": []
+              }
+            ],
+            "relationships": [
+              {
+                "spdxElementId": "SPDXRef-Compiler",
+                "relationshipType": "BUILD_TOOL_OF",
+                "relatedSpdxElement": "SPDXRef-Archive-yyjson-src"
+              }
+            ]
+          },
+          "path_exec_files": [],
+          "all_files": [
+            ".brew/yyjson.rb",
+            "CHANGELOG.md",
+            "INSTALL_RECEIPT.json",
+            "LICENSE",
+            "README.md",
+            "include/yyjson.h",
+            "lib/cmake/yyjson/yyjson-config-release.cmake",
+            "lib/cmake/yyjson/yyjson-config.cmake",
+            "lib/libyyjson.0.13.0.dylib",
+            "lib/libyyjson.0.dylib",
+            "lib/libyyjson.dylib",
+            "lib/pkgconfig/yyjson.pc",
+            "sbom.spdx.json"
+          ],
+          "installed_size": 607496
+        }
+      }
+    }
+  }
+}

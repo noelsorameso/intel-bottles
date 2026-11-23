@@ -5,24 +5,24 @@
       "pkg_version": "4.7.2",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libtiff.rb",
       "tap_git_path": "Formula/lib/libtiff.rb",
-      "tap_git_revision": "74ae27082c23f2c3d5690b20ee5a8dcfb2d47e13",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "TIFF library and utilities",
       "license": "libtiff",
       "homepage": "https://libtiff.gitlab.io/libtiff/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-09-04T19:58:10Z",
+      "date": "2026-11-23T05:24:30Z",
       "tags": {
         "tahoe": {
           "filename": "libtiff-4.7.2.tahoe.bottle.tar.gz",
           "local_filename": "libtiff--4.7.2.tahoe.bottle.tar.gz",
-          "sha256": "f1abd05915f49c4d07b789fdfab78ad83e78e6a4a61ef7c0ebeab45657b2e51c",
+          "sha256": "16b939293201c6c76bc373bbfe53f85ed550106ff0f19e779c131b0381adb796",
           "tab": {
-            "homebrew_version": "6.0.21",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/libtiff-4.pc"
             ],
@@ -54,9 +54,9 @@
             "runtime_dependencies": [
               {
                 "full_name": "jpeg-turbo",
-                "version": "3.2.0",
+                "version": "3.2.1",
                 "revision": 0,
-                "pkg_version": "3.2.0",
+                "pkg_version": "3.2.1",
                 "declared_directly": true,
                 "compatibility_version": 1
               },
@@ -64,17 +64,15 @@
                 "full_name": "giflib",
                 "version": "6.1.3",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "6.1.3",
                 "declared_directly": false,
                 "compatibility_version": 1
               },
               {
                 "full_name": "libpng",
-                "version": "1.6.58",
+                "version": "1.6.59",
                 "revision": 0,
-                "bottle_rebuild": 0,
-                "pkg_version": "1.6.58",
+                "pkg_version": "1.6.59",
                 "declared_directly": false,
                 "compatibility_version": 1
               },
@@ -82,26 +80,25 @@
                 "full_name": "webp",
                 "version": "1.6.0",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "1.6.0",
                 "declared_directly": true,
                 "compatibility_version": 1
               },
               {
                 "full_name": "xz",
-                "version": "5.8.3",
+                "version": "5.8.4",
                 "revision": 0,
-                "bottle_rebuild": 0,
-                "pkg_version": "5.8.3",
+                "pkg_version": "5.8.4",
                 "declared_directly": true,
                 "compatibility_version": 1
               },
               {
                 "full_name": "lz4",
-                "version": "1.10.0",
+                "version": "1.11.1",
                 "revision": 0,
-                "pkg_version": "1.10.0",
-                "declared_directly": false
+                "pkg_version": "1.11.1",
+                "declared_directly": false,
+                "compatibility_version": 1
               },
               {
                 "full_name": "zstd",
@@ -126,36 +123,12 @@
           "binary_relocation_diagnostics": [],
           "sbom": {
             "documentDescribes": [
-              "SPDXRef-Package-SPDXRef-xz-5.8.3",
-              "SPDXRef-Package-SPDXRef-zstd-1.5.7_1",
+              "SPDXRef-Package-SPDXRef-zstd-1.2e.5.2e.7.5f.1",
               "SPDXRef-Compiler"
             ],
             "packages": [
               {
-                "SPDXID": "SPDXRef-Package-SPDXRef-xz-5.8.3",
-                "name": "xz",
-                "versionInfo": "5.8.3",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "0BSD AND GPL-2.0-or-later",
-                "downloadLocation": "https://ghcr.io/v2/homebrew/core/xz/blobs/sha256:df5011c2bf8ce426cd62fcd0b849268511cfdbf71331f7eaa07bf790bcf93a0f",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "df5011c2bf8ce426cd62fcd0b849268511cfdbf71331f7eaa07bf790bcf93a0f"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/xz@5.8.3",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-zstd-1.5.7_1",
+                "SPDXID": "SPDXRef-Package-SPDXRef-zstd-1.2e.5.2e.7.5f.1",
                 "name": "zstd",
                 "versionInfo": "1.5.7_1",
                 "filesAnalyzed": false,
@@ -192,12 +165,7 @@
             ],
             "relationships": [
               {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-xz-5.8.3",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-libtiff"
-              },
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-zstd-1.5.7_1",
+                "spdxElementId": "SPDXRef-Package-SPDXRef-zstd-1.2e.5.2e.7.5f.1",
                 "relationshipType": "RUNTIME_DEPENDENCY_OF",
                 "relatedSpdxElement": "SPDXRef-Bottle-libtiff"
               },
@@ -723,7 +691,7 @@
             "share/man/man3/_TIFFauxiliary.3tiff",
             "share/man/man3/libtiff.3tiff"
           ],
-          "installed_size": 8395574
+          "installed_size": 8395500
         }
       }
     }

@@ -5,7 +5,7 @@
       "pkg_version": "5.8.4",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/x/xz.rb",
       "tap_git_path": "Formula/x/xz.rb",
-      "tap_git_revision": "d6a15d186e4fcb5e53343a2d2b0cee46f9c43fe6",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
       "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "General-purpose data compression with high compression ratio",
       "license": "0BSD AND GPL-2.0-or-later",
@@ -15,12 +15,12 @@
       "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-11-21T02:07:30Z",
+      "date": "2026-11-23T05:22:52Z",
       "tags": {
         "tahoe": {
           "filename": "xz-5.8.4.tahoe.bottle.tar.gz",
           "local_filename": "xz--5.8.4.tahoe.bottle.tar.gz",
-          "sha256": "0d4d75d551188426f257a0397cf045c82522f3b62d368502b6f23a641a0468e2",
+          "sha256": "1429217ebdb0c8ec987a7f783a4e7b90bebd8873ef1b77f5660bd27d607b999f",
           "tab": {
             "homebrew_version": "7.0.15",
             "changed_files": [

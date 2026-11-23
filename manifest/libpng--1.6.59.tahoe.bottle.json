@@ -5,24 +5,24 @@
       "pkg_version": "1.6.59",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libpng.rb",
       "tap_git_path": "Formula/lib/libpng.rb",
-      "tap_git_revision": "4512b0f6f75400b709fd3e7ef6041f5148922401",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Library for manipulating PNG images",
       "license": "libpng-2.0",
       "homepage": "https://www.libpng.org/pub/png/libpng.html"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-02T11:23:17Z",
+      "date": "2026-11-23T05:19:56Z",
       "tags": {
         "tahoe": {
           "filename": "libpng-1.6.59.tahoe.bottle.tar.gz",
           "local_filename": "libpng--1.6.59.tahoe.bottle.tar.gz",
-          "sha256": "983550222f14d7db234a39119dc66c0de74d9b79b74f83ecf4b81a6b694d40de",
+          "sha256": "914dc75bd40847a190637ca75c60bbd05437e9fc40f5c91cf7a4ddd7a2e14e28",
           "tab": {
-            "homebrew_version": "7.0.7",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "bin/libpng16-config",
               "lib/pkgconfig/libpng.pc",
@@ -109,7 +109,7 @@
             "share/man/man3/libpngpf.3",
             "share/man/man5/png.5"
           ],
-          "installed_size": 1277601
+          "installed_size": 1277602
         }
       }
     }

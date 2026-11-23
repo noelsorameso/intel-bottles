@@ -5,24 +5,24 @@
       "pkg_version": "6.1.3",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/g/giflib.rb",
       "tap_git_path": "Formula/g/giflib.rb",
-      "tap_git_revision": "f5900eedc815143778a79d3c0448054ab00be974",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Library and utilities for processing GIFs",
       "license": "MIT",
       "homepage": "https://giflib.sourceforge.net/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-01T11:53:10Z",
+      "date": "2026-11-23T05:20:13Z",
       "tags": {
         "tahoe": {
           "filename": "giflib-6.1.3.tahoe.bottle.tar.gz",
           "local_filename": "giflib--6.1.3.tahoe.bottle.tar.gz",
-          "sha256": "974c6265c287445fb2ffa5e4ebce9e476a02eb7e29dee6da3bea1e8fc6bd7209",
+          "sha256": "cbb5161d9c2136b7f1933e68da02218de0999e232195febe18ff8ee201b02d59",
           "tab": {
-            "homebrew_version": "7.0.7",
+            "homebrew_version": "7.0.15",
             "changed_files": [],
             "linkage_files": [
               "lib/libgif.7.2.0.dylib"
@@ -96,7 +96,7 @@
             "lib/libgif.dylib",
             "sbom.spdx.json"
           ],
-          "installed_size": 354129
+          "installed_size": 354130
         }
       }
     }

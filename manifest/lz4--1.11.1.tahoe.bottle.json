@@ -5,24 +5,24 @@
       "pkg_version": "1.11.1",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/l/lz4.rb",
       "tap_git_path": "Formula/l/lz4.rb",
-      "tap_git_revision": "ea5d3deccd42c94054477f836258db2274dd6c22",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Extremely Fast Compression algorithm",
       "license": "BSD-2-Clause",
       "homepage": "https://lz4.github.io/lz4/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-11-10T13:04:58Z",
+      "date": "2026-11-23T05:23:24Z",
       "tags": {
         "tahoe": {
           "filename": "lz4-1.11.1.tahoe.bottle.tar.gz",
           "local_filename": "lz4--1.11.1.tahoe.bottle.tar.gz",
-          "sha256": "48d8c38df9412e0a3198698367f3afe9ada2c8055a77f5468cd59d85cb408f9a",
+          "sha256": "15318c0ed3719f7c1e876951aff11fc94b447a153576d920bb9db36128d9ac9a",
           "tab": {
-            "homebrew_version": "7.0.13",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/liblz4.pc"
             ],

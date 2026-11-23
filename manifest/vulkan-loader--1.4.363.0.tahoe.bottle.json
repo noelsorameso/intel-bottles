@@ -1,0 +1,136 @@
+{
+  "vulkan-loader": {
+    "formula": {
+      "name": "vulkan-loader",
+      "pkg_version": "1.4.363.0",
+      "path": "Library/Taps/homebrew/homebrew-core/Formula/v/vulkan-loader.rb",
+      "tap_git_path": "Formula/v/vulkan-loader.rb",
+      "tap_git_revision": "3c45c3a9d186aa772a41bd4601436318150e5166",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
+      "desc": "Vulkan ICD Loader",
+      "license": "Apache-2.0",
+      "homepage": "https://github.com/KhronosGroup/Vulkan-Loader"
+    },
+    "bottle": {
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
+      "cellar": "any",
+      "rebuild": 0,
+      "date": "2026-11-23T05:05:12Z",
+      "tags": {
+        "tahoe": {
+          "filename": "vulkan-loader-1.4.363.0.tahoe.bottle.tar.gz",
+          "local_filename": "vulkan-loader--1.4.363.0.tahoe.bottle.tar.gz",
+          "sha256": "75d1b984e9d1dbfa8d48accbec25e54c3ee03db30c450c993fc88ed5495d6d99",
+          "tab": {
+            "homebrew_version": "7.0.15",
+            "changed_files": [
+              "lib/pkgconfig/vulkan.pc"
+            ],
+            "linkage_files": [
+              "lib/libvulkan.1.4.363.dylib",
+              "loader/vulkan.framework/Versions/A/vulkan"
+            ],
+            "binary_relocation_files": [],
+            "source_modified_time": 1789748904,
+            "compiler": "clang",
+            "runtime_dependencies": [
+              {
+                "full_name": "vulkan-headers",
+                "version": "1.4.363.0",
+                "revision": 0,
+                "bottle_rebuild": 1,
+                "pkg_version": "1.4.363.0",
+                "declared_directly": true,
+                "compatibility_version": 1
+              }
+            ],
+            "arch": "x86_64",
+            "built_on": {
+              "os": "Macintosh",
+              "os_version": "macOS 26.6",
+              "cpu_family": "ivybridge",
+              "xcode": "26.6",
+              "clt": "26.6.0.0.1781586589",
+              "preferred_perl": "5.34"
+            }
+          },
+          "binary_relocation_diagnostics": [],
+          "sbom": {
+            "documentDescribes": [
+              "SPDXRef-Package-SPDXRef-vulkan-headers-1.2e.4.2e.363.2e.0",
+              "SPDXRef-Compiler"
+            ],
+            "packages": [
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-vulkan-headers-1.2e.4.2e.363.2e.0",
+                "name": "vulkan-headers",
+                "versionInfo": "1.4.363.0",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "Apache-2.0",
+                "downloadLocation": "https://ghcr.io/v2/homebrew/core/vulkan-headers/blobs/sha256:64cb4ed61848cac6cbe070562d383f6d50a402524dee42f2a19ec0546736fe10",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "64cb4ed61848cac6cbe070562d383f6d50a402524dee42f2a19ec0546736fe10"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/vulkan-headers@1.4.363.0",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Compiler",
+                "name": "clang",
+                "versionInfo": "26.6",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "NOASSERTION",
+                "copyrightText": "NOASSERTION",
+                "downloadLocation": "NOASSERTION",
+                "checksums": [],
+                "externalRefs": []
+              }
+            ],
+            "relationships": [
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-vulkan-headers-1.2e.4.2e.363.2e.0",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-vulkan-loader"
+              },
+              {
+                "spdxElementId": "SPDXRef-Compiler",
+                "relationshipType": "BUILD_TOOL_OF",
+                "relatedSpdxElement": "SPDXRef-Archive-vulkan-loader-src"
+              }
+            ]
+          },
+          "path_exec_files": [],
+          "all_files": [
+            ".brew/vulkan-loader.rb",
+            "INSTALL_RECEIPT.json",
+            "LICENSE.txt",
+            "README.md",
+            "lib/cmake/VulkanLoader/VulkanLoaderConfig-release.cmake",
+            "lib/cmake/VulkanLoader/VulkanLoaderConfig.cmake",
+            "lib/cmake/VulkanLoader/VulkanLoaderConfigVersion.cmake",
+            "lib/libvulkan.1.4.363.dylib",
+            "lib/libvulkan.1.dylib",
+            "lib/libvulkan.dylib",
+            "lib/pkgconfig/vulkan.pc",
+            "loader/vulkan.framework/Versions/A/Resources/Info.plist",
+            "loader/vulkan.framework/Versions/A/vulkan",
+            "loader/vulkan.framework/vulkan",
+            "sbom.spdx.json"
+          ],
+          "installed_size": 1312493
+        }
+      }
+    }
+  }
+}
