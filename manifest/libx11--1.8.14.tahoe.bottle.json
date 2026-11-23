@@ -5,24 +5,24 @@
       "pkg_version": "1.8.14",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libx11.rb",
       "tap_git_path": "Formula/lib/libx11.rb",
-      "tap_git_revision": "8ba9cb82595e77e2aff43a6b7a08ce7b91f71e7d",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "X.Org: Core X11 protocol client library",
       "license": "MIT",
       "homepage": "https://www.x.org/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "/usr/local/Cellar",
       "rebuild": 0,
-      "date": "2026-10-17T09:55:38Z",
+      "date": "2026-11-23T06:53:27Z",
       "tags": {
         "tahoe": {
           "filename": "libx11-1.8.14.tahoe.bottle.tar.gz",
           "local_filename": "libx11--1.8.14.tahoe.bottle.tar.gz",
-          "sha256": "c6d26e6032e1a786e706b9c8679d0592276fd0a3007caadf760498808e1f0163",
+          "sha256": "66515b825d6cd1df77087394fcef4459db83b46161b3a5b9fcb4ec780a008e46",
           "tab": {
-            "homebrew_version": "7.0.9",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/x11-xcb.pc",
               "lib/pkgconfig/x11.pc",
@@ -57,7 +57,6 @@
                 "full_name": "xorgproto",
                 "version": "2026.1",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "2026.1",
                 "declared_directly": true,
                 "compatibility_version": 1
@@ -134,33 +133,9 @@
           ],
           "sbom": {
             "documentDescribes": [
-              "SPDXRef-Package-SPDXRef-xorgproto-2026.2e.1",
               "SPDXRef-Compiler"
             ],
             "packages": [
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-xorgproto-2026.2e.1",
-                "name": "xorgproto",
-                "versionInfo": "2026.1",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "MIT",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/xorgproto-2026.1.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "5286465a0d9c7954041bcec0ebee5641b6c8018b3f679eaa8595b029a44c2af9"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/xorgproto@2026.1",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
               {
                 "SPDXID": "SPDXRef-Compiler",
                 "name": "clang",
@@ -175,11 +150,6 @@
               }
             ],
             "relationships": [
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-xorgproto-2026.2e.1",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-libx11"
-              },
               {
                 "spdxElementId": "SPDXRef-Compiler",
                 "relationshipType": "BUILD_TOOL_OF",
@@ -1218,7 +1188,7 @@
             "share/man/man5/Compose.5",
             "share/man/man5/XCompose.5"
           ],
-          "installed_size": 7034335
+          "installed_size": 7034309
         }
       }
     }

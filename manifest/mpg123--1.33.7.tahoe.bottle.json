@@ -5,24 +5,24 @@
       "pkg_version": "1.33.7",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/m/mpg123.rb",
       "tap_git_path": "Formula/m/mpg123.rb",
-      "tap_git_revision": "52b61f5ef99b03c18032c38a4a3de85d226a0e7e",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "MP3 player for Linux and UNIX",
       "license": "LGPL-2.1-only",
       "homepage": "https://www.mpg123.de/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "/usr/local/Cellar",
       "rebuild": 0,
-      "date": "2026-09-30T18:44:17Z",
+      "date": "2026-11-23T06:44:17Z",
       "tags": {
         "tahoe": {
           "filename": "mpg123-1.33.7.tahoe.bottle.tar.gz",
           "local_filename": "mpg123--1.33.7.tahoe.bottle.tar.gz",
-          "sha256": "568914f036d13546b887cd973a9f56526e1c3992c619d83a2b80fc0b9757ddc1",
+          "sha256": "f87f083690d5702f7811a29d942dbe093150dfed013a933718a7ad6da79d3188",
           "tab": {
-            "homebrew_version": "7.0.7",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/libmpg123.pc",
               "lib/pkgconfig/libout123.pc",
@@ -134,7 +134,7 @@
             "share/man/man1/mpg123.1",
             "share/man/man1/out123.1"
           ],
-          "installed_size": 1640843
+          "installed_size": 1640844
         }
       }
     }

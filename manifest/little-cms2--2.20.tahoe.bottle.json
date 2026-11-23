@@ -5,24 +5,24 @@
       "pkg_version": "2.20",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/l/little-cms2.rb",
       "tap_git_path": "Formula/l/little-cms2.rb",
-      "tap_git_revision": "08f10e288242717facd5dbfce9f98256129f1d08",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Color management engine supporting ICC profiles",
       "license": "MIT",
       "homepage": "https://www.littlecms.com/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-11-12T13:20:56Z",
+      "date": "2026-11-23T06:22:41Z",
       "tags": {
         "tahoe": {
           "filename": "little-cms2-2.20.tahoe.bottle.tar.gz",
           "local_filename": "little-cms2--2.20.tahoe.bottle.tar.gz",
-          "sha256": "36a35b53f5f90278ac7ea9c2083c5a48a5cd78e5d8d0e00b5a50b086e504e5a9",
+          "sha256": "6fddaa2788c608b0bfbd2244a5cc8690613822bc8d8eac4e14b9aa47b899b8aa",
           "tab": {
-            "homebrew_version": "7.0.13",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/lcms2.pc"
             ],
@@ -142,12 +142,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "IJG AND Zlib AND BSD-3-Clause",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/jpeg-turbo-3.2.1.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/jpeg-turbo-3.2.1.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "1bb37d07262582aba709ca3f07596fbdf0649606f690b6800e72c6e99af2f9dd"
+                    "checksumValue": "76b6fc5bb4f4f3ae375c04001edc2cdd173f0c8f887d307a162ce9476a634314"
                   }
                 ],
                 "externalRefs": [
@@ -165,12 +165,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "MIT",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/giflib-6.1.3.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/giflib-6.1.3.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "974c6265c287445fb2ffa5e4ebce9e476a02eb7e29dee6da3bea1e8fc6bd7209"
+                    "checksumValue": "cbb5161d9c2136b7f1933e68da02218de0999e232195febe18ff8ee201b02d59"
                   }
                 ],
                 "externalRefs": [
@@ -188,12 +188,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "libpng-2.0",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/libpng-1.6.59.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/libpng-1.6.59.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "983550222f14d7db234a39119dc66c0de74d9b79b74f83ecf4b81a6b694d40de"
+                    "checksumValue": "914dc75bd40847a190637ca75c60bbd05437e9fc40f5c91cf7a4ddd7a2e14e28"
                   }
                 ],
                 "externalRefs": [
@@ -211,12 +211,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "BSD-3-Clause",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/webp-1.6.0.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/webp-1.6.0.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "28483ee31b5610606f46e0ee4706bbe9b19a4981bdfc736e9322ed6248ca79fc"
+                    "checksumValue": "47b5d39c9a28b596d887eb0c78722902de17d8cad796737c58a18c0de193246a"
                   }
                 ],
                 "externalRefs": [
@@ -234,12 +234,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "0BSD AND GPL-2.0-or-later",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/xz-5.8.4.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/xz-5.8.4.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "54a648c4197b0299ee2d37527ca6a23447abe65342f8f8c0ed68e154f4593b0f"
+                    "checksumValue": "1429217ebdb0c8ec987a7f783a4e7b90bebd8873ef1b77f5660bd27d607b999f"
                   }
                 ],
                 "externalRefs": [
@@ -257,12 +257,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "BSD-2-Clause",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/lz4-1.11.1.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/lz4-1.11.1.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "48d8c38df9412e0a3198698367f3afe9ada2c8055a77f5468cd59d85cb408f9a"
+                    "checksumValue": "15318c0ed3719f7c1e876951aff11fc94b447a153576d920bb9db36128d9ac9a"
                   }
                 ],
                 "externalRefs": [
@@ -303,12 +303,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "libtiff",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/libtiff-4.7.2.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/libtiff-4.7.2.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "f1abd05915f49c4d07b789fdfab78ad83e78e6a4a61ef7c0ebeab45657b2e51c"
+                    "checksumValue": "16b939293201c6c76bc373bbfe53f85ed550106ff0f19e779c131b0381adb796"
                   }
                 ],
                 "externalRefs": [

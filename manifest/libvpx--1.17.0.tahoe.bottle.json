@@ -5,24 +5,24 @@
       "pkg_version": "1.17.0",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libvpx.rb",
       "tap_git_path": "Formula/lib/libvpx.rb",
-      "tap_git_revision": "f5900eedc815143778a79d3c0448054ab00be974",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "VP8/VP9 video codec",
       "license": "BSD-3-Clause",
       "homepage": "https://www.webmproject.org/code/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-01T12:07:28Z",
+      "date": "2026-11-23T06:46:37Z",
       "tags": {
         "tahoe": {
           "filename": "libvpx-1.17.0.tahoe.bottle.tar.gz",
           "local_filename": "libvpx--1.17.0.tahoe.bottle.tar.gz",
-          "sha256": "37b1fb1840bf793c99768ffc8342a3ec5148b5ad3cf933da107ba7b89612eb24",
+          "sha256": "c799a39fa5b9eb6a0fe5138323aeba08684d6f9dc24e1ed7b8df5e2fea701a3f",
           "tab": {
-            "homebrew_version": "7.0.7",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/vpx.pc"
             ],
@@ -95,7 +95,7 @@
             "lib/pkgconfig/vpx.pc",
             "sbom.spdx.json"
           ],
-          "installed_size": 5942683
+          "installed_size": 5942684
         }
       }
     }

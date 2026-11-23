@@ -1,0 +1,551 @@
+{
+  "libplacebo": {
+    "formula": {
+      "name": "libplacebo",
+      "pkg_version": "7.387.0",
+      "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libplacebo.rb",
+      "tap_git_path": "Formula/lib/libplacebo.rb",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
+      "desc": "Reusable library for GPU-accelerated image/video processing primitives",
+      "license": "LGPL-2.1-or-later",
+      "homepage": "https://code.videolan.org/videolan/libplacebo"
+    },
+    "bottle": {
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
+      "cellar": "any",
+      "rebuild": 0,
+      "date": "2026-11-23T06:24:08Z",
+      "tags": {
+        "tahoe": {
+          "filename": "libplacebo-7.387.0.tahoe.bottle.tar.gz",
+          "local_filename": "libplacebo--7.387.0.tahoe.bottle.tar.gz",
+          "sha256": "e442390f81c820248f07d5ef8c6d0628ed003558836e27a86ae9cdcbaced2e94",
+          "tab": {
+            "homebrew_version": "7.0.15",
+            "changed_files": [
+              "lib/pkgconfig/libplacebo.pc"
+            ],
+            "linkage_files": [
+              "lib/libplacebo.387.dylib"
+            ],
+            "binary_relocation_files": [],
+            "source_modified_time": 1792950923,
+            "compiler": "clang",
+            "runtime_dependencies": [
+              {
+                "full_name": "jpeg-turbo",
+                "version": "3.2.1",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "3.2.1",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "giflib",
+                "version": "6.1.3",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "6.1.3",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "libpng",
+                "version": "1.6.59",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "1.6.59",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "webp",
+                "version": "1.6.0",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "1.6.0",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "xz",
+                "version": "5.8.4",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "5.8.4",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "lz4",
+                "version": "1.11.1",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "1.11.1",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "zstd",
+                "version": "1.5.7",
+                "revision": 1,
+                "bottle_rebuild": 0,
+                "pkg_version": "1.5.7_1",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "libtiff",
+                "version": "4.7.2",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "4.7.2",
+                "declared_directly": false,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "little-cms2",
+                "version": "2.20",
+                "revision": 0,
+                "pkg_version": "2.20",
+                "declared_directly": true,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "shaderc",
+                "version": "2026.4",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "2026.4",
+                "declared_directly": true,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "vulkan-headers",
+                "version": "1.4.363.0",
+                "revision": 0,
+                "bottle_rebuild": 1,
+                "pkg_version": "1.4.363.0",
+                "declared_directly": true,
+                "compatibility_version": 1
+              },
+              {
+                "full_name": "vulkan-loader",
+                "version": "1.4.363.0",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "1.4.363.0",
+                "declared_directly": true,
+                "compatibility_version": 1
+              }
+            ],
+            "arch": "x86_64",
+            "built_on": {
+              "os": "Macintosh",
+              "os_version": "macOS 26.6",
+              "cpu_family": "ivybridge",
+              "xcode": "26.6",
+              "clt": "26.6.0.0.1781586589",
+              "preferred_perl": "5.34"
+            }
+          },
+          "binary_relocation_diagnostics": [],
+          "sbom": {
+            "documentDescribes": [
+              "SPDXRef-Package-SPDXRef-jpeg-turbo-3.2e.2.2e.1",
+              "SPDXRef-Package-SPDXRef-giflib-6.2e.1.2e.3",
+              "SPDXRef-Package-SPDXRef-libpng-1.2e.6.2e.59",
+              "SPDXRef-Package-SPDXRef-webp-1.2e.6.2e.0",
+              "SPDXRef-Package-SPDXRef-xz-5.2e.8.2e.4",
+              "SPDXRef-Package-SPDXRef-lz4-1.2e.11.2e.1",
+              "SPDXRef-Package-SPDXRef-zstd-1.2e.5.2e.7.5f.1",
+              "SPDXRef-Package-SPDXRef-libtiff-4.2e.7.2e.2",
+              "SPDXRef-Package-SPDXRef-shaderc-2026.2e.4",
+              "SPDXRef-Package-SPDXRef-vulkan-headers-1.2e.4.2e.363.2e.0",
+              "SPDXRef-Package-SPDXRef-vulkan-loader-1.2e.4.2e.363.2e.0",
+              "SPDXRef-Compiler"
+            ],
+            "packages": [
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-jpeg-turbo-3.2e.2.2e.1",
+                "name": "jpeg-turbo",
+                "versionInfo": "3.2.1",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "IJG AND Zlib AND BSD-3-Clause",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/jpeg-turbo-3.2.1.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "76b6fc5bb4f4f3ae375c04001edc2cdd173f0c8f887d307a162ce9476a634314"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/jpeg-turbo@3.2.1",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-giflib-6.2e.1.2e.3",
+                "name": "giflib",
+                "versionInfo": "6.1.3",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "MIT",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/giflib-6.1.3.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "cbb5161d9c2136b7f1933e68da02218de0999e232195febe18ff8ee201b02d59"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/giflib@6.1.3",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-libpng-1.2e.6.2e.59",
+                "name": "libpng",
+                "versionInfo": "1.6.59",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "libpng-2.0",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/libpng-1.6.59.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "914dc75bd40847a190637ca75c60bbd05437e9fc40f5c91cf7a4ddd7a2e14e28"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/libpng@1.6.59",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-webp-1.2e.6.2e.0",
+                "name": "webp",
+                "versionInfo": "1.6.0",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "BSD-3-Clause",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/webp-1.6.0.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "47b5d39c9a28b596d887eb0c78722902de17d8cad796737c58a18c0de193246a"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/webp@1.6.0",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-xz-5.2e.8.2e.4",
+                "name": "xz",
+                "versionInfo": "5.8.4",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "0BSD AND GPL-2.0-or-later",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/xz-5.8.4.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "1429217ebdb0c8ec987a7f783a4e7b90bebd8873ef1b77f5660bd27d607b999f"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/xz@5.8.4",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-lz4-1.2e.11.2e.1",
+                "name": "lz4",
+                "versionInfo": "1.11.1",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "BSD-2-Clause",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/lz4-1.11.1.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "15318c0ed3719f7c1e876951aff11fc94b447a153576d920bb9db36128d9ac9a"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/lz4@1.11.1",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-zstd-1.2e.5.2e.7.5f.1",
+                "name": "zstd",
+                "versionInfo": "1.5.7_1",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "(BSD-3-Clause OR GPL-2.0-only) AND BSD-2-Clause AND MIT",
+                "downloadLocation": "https://ghcr.io/v2/homebrew/core/zstd/blobs/sha256:90c345a174a631a157f7ea056fe41205fb77778e65d4bdc91097a3fb3a62faa6",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "90c345a174a631a157f7ea056fe41205fb77778e65d4bdc91097a3fb3a62faa6"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/zstd@1.5.7_1",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-libtiff-4.2e.7.2e.2",
+                "name": "libtiff",
+                "versionInfo": "4.7.2",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "libtiff",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/libtiff-4.7.2.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "16b939293201c6c76bc373bbfe53f85ed550106ff0f19e779c131b0381adb796"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/libtiff@4.7.2",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-shaderc-2026.2e.4",
+                "name": "shaderc",
+                "versionInfo": "2026.4",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "Apache-2.0",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/shaderc-2026.4.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "b59e08b5fdcf005fbbd81d1490df6d4897eabf568bd6523668478f84c7cff383"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/shaderc@2026.4",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-vulkan-headers-1.2e.4.2e.363.2e.0",
+                "name": "vulkan-headers",
+                "versionInfo": "1.4.363.0",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "Apache-2.0",
+                "downloadLocation": "https://ghcr.io/v2/homebrew/core/vulkan-headers/blobs/sha256:64cb4ed61848cac6cbe070562d383f6d50a402524dee42f2a19ec0546736fe10",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "64cb4ed61848cac6cbe070562d383f6d50a402524dee42f2a19ec0546736fe10"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/vulkan-headers@1.4.363.0",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-vulkan-loader-1.2e.4.2e.363.2e.0",
+                "name": "vulkan-loader",
+                "versionInfo": "1.4.363.0",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "Apache-2.0",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/vulkan-loader-1.4.363.0.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "75d1b984e9d1dbfa8d48accbec25e54c3ee03db30c450c993fc88ed5495d6d99"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/vulkan-loader@1.4.363.0",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Compiler",
+                "name": "clang",
+                "versionInfo": "26.6",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "NOASSERTION",
+                "copyrightText": "NOASSERTION",
+                "downloadLocation": "NOASSERTION",
+                "checksums": [],
+                "externalRefs": []
+              }
+            ],
+            "relationships": [
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-jpeg-turbo-3.2e.2.2e.1",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-giflib-6.2e.1.2e.3",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-libpng-1.2e.6.2e.59",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-webp-1.2e.6.2e.0",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-xz-5.2e.8.2e.4",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-lz4-1.2e.11.2e.1",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-zstd-1.2e.5.2e.7.5f.1",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-libtiff-4.2e.7.2e.2",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-shaderc-2026.2e.4",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-vulkan-headers-1.2e.4.2e.363.2e.0",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-vulkan-loader-1.2e.4.2e.363.2e.0",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-libplacebo"
+              },
+              {
+                "spdxElementId": "SPDXRef-Compiler",
+                "relationshipType": "BUILD_TOOL_OF",
+                "relatedSpdxElement": "SPDXRef-Archive-libplacebo-src"
+              }
+            ]
+          },
+          "path_exec_files": [],
+          "all_files": [
+            ".brew/libplacebo.rb",
+            "INSTALL_RECEIPT.json",
+            "LICENSE",
+            "README.md",
+            "include/libplacebo/cache.h",
+            "include/libplacebo/colorspace.h",
+            "include/libplacebo/common.h",
+            "include/libplacebo/compositor.h",
+            "include/libplacebo/config.h",
+            "include/libplacebo/d3d11.h",
+            "include/libplacebo/dispatch.h",
+            "include/libplacebo/dither.h",
+            "include/libplacebo/dummy.h",
+            "include/libplacebo/filters.h",
+            "include/libplacebo/gamut_mapping.h",
+            "include/libplacebo/gpu.h",
+            "include/libplacebo/log.h",
+            "include/libplacebo/opengl.h",
+            "include/libplacebo/options.h",
+            "include/libplacebo/renderer.h",
+            "include/libplacebo/shaders/colorspace.h",
+            "include/libplacebo/shaders/custom.h",
+            "include/libplacebo/shaders/deinterlacing.h",
+            "include/libplacebo/shaders/dithering.h",
+            "include/libplacebo/shaders/film_grain.h",
+            "include/libplacebo/shaders/icc.h",
+            "include/libplacebo/shaders/lut.h",
+            "include/libplacebo/shaders/sampling.h",
+            "include/libplacebo/shaders.h",
+            "include/libplacebo/swapchain.h",
+            "include/libplacebo/tone_mapping.h",
+            "include/libplacebo/utils/dav1d.h",
+            "include/libplacebo/utils/dav1d_internal.h",
+            "include/libplacebo/utils/dolbyvision.h",
+            "include/libplacebo/utils/frame_queue.h",
+            "include/libplacebo/utils/libav.h",
+            "include/libplacebo/utils/libav_internal.h",
+            "include/libplacebo/utils/upload.h",
+            "include/libplacebo/vulkan.h",
+            "lib/libplacebo.387.dylib",
+            "lib/libplacebo.dylib",
+            "lib/pkgconfig/libplacebo.pc",
+            "sbom.spdx.json"
+          ],
+          "installed_size": 1632915
+        }
+      }
+    }
+  }
+}

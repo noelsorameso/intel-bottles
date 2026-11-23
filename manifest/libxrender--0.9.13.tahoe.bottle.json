@@ -5,24 +5,24 @@
       "pkg_version": "0.9.13",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libxrender.rb",
       "tap_git_path": "Formula/lib/libxrender.rb",
-      "tap_git_revision": "3772bbc603142baa7b1d62a5487f135749f3c78b",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "X.Org: Library for the Render Extension to the X11 protocol",
       "license": "MIT",
       "homepage": "https://www.x.org/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-17T10:32:48Z",
+      "date": "2026-11-23T06:54:10Z",
       "tags": {
         "tahoe": {
           "filename": "libxrender-0.9.13.tahoe.bottle.tar.gz",
           "local_filename": "libxrender--0.9.13.tahoe.bottle.tar.gz",
-          "sha256": "aebc979e80b79b0064a432ebeea298ceec187e5df77855f413e6fcb51571b769",
+          "sha256": "6f384a41240a4e889859e914263fb3b0bf8bc4dcc4757b275fad8d1e5296998c",
           "tab": {
-            "homebrew_version": "7.0.9",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/xrender.pc"
             ],
@@ -37,7 +37,6 @@
                 "full_name": "xorgproto",
                 "version": "2026.1",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "2026.1",
                 "declared_directly": true,
                 "compatibility_version": 1
@@ -73,7 +72,6 @@
                 "full_name": "libx11",
                 "version": "1.8.14",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "1.8.14",
                 "declared_directly": true,
                 "compatibility_version": 1
@@ -92,57 +90,9 @@
           "binary_relocation_diagnostics": [],
           "sbom": {
             "documentDescribes": [
-              "SPDXRef-Package-SPDXRef-xorgproto-2026.2e.1",
-              "SPDXRef-Package-SPDXRef-libx11-1.2e.8.2e.14",
               "SPDXRef-Compiler"
             ],
             "packages": [
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-xorgproto-2026.2e.1",
-                "name": "xorgproto",
-                "versionInfo": "2026.1",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "MIT",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/xorgproto-2026.1.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "5286465a0d9c7954041bcec0ebee5641b6c8018b3f679eaa8595b029a44c2af9"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/xorgproto@2026.1",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-libx11-1.2e.8.2e.14",
-                "name": "libx11",
-                "versionInfo": "1.8.14",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "MIT",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/libx11-1.8.14.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "c6d26e6032e1a786e706b9c8679d0592276fd0a3007caadf760498808e1f0163"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/libx11@1.8.14",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
               {
                 "SPDXID": "SPDXRef-Compiler",
                 "name": "clang",
@@ -157,16 +107,6 @@
               }
             ],
             "relationships": [
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-xorgproto-2026.2e.1",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-libxrender"
-              },
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-libx11-1.2e.8.2e.14",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-libxrender"
-              },
               {
                 "spdxElementId": "SPDXRef-Compiler",
                 "relationshipType": "BUILD_TOOL_OF",
@@ -190,7 +130,7 @@
             "sbom.spdx.json",
             "share/doc/libXrender/libXrender.txt"
           ],
-          "installed_size": 180186
+          "installed_size": 180112
         }
       }
     }

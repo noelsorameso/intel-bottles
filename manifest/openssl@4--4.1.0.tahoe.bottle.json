@@ -5,7 +5,7 @@
       "pkg_version": "4.1.0",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/o/openssl@4.rb",
       "tap_git_path": "Formula/o/openssl@4.rb",
-      "tap_git_revision": "01d4e481e4f1889f980ce6781c9d62f3c4f1dfef",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
       "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Cryptography and SSL/TLS Toolkit",
       "license": "Apache-2.0",
@@ -15,12 +15,12 @@
       "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "/usr/local/Cellar",
       "rebuild": 0,
-      "date": "2026-11-22T08:10:02Z",
+      "date": "2026-11-23T06:09:34Z",
       "tags": {
         "tahoe": {
           "filename": "openssl%404-4.1.0.tahoe.bottle.tar.gz",
           "local_filename": "openssl@4--4.1.0.tahoe.bottle.tar.gz",
-          "sha256": "e4fcb6159895e749a8577f77eac976727981f036f20ffbfa0a3b0e56298f73b6",
+          "sha256": "deb523ab8818226968c74e452bb9f8be57d89c959f967f1eb3efc4b11958a99b",
           "tab": {
             "homebrew_version": "7.0.15",
             "changed_files": [

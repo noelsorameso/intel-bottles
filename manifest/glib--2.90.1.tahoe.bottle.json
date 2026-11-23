@@ -5,24 +5,24 @@
       "pkg_version": "2.90.1",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/g/glib.rb",
       "tap_git_path": "Formula/g/glib.rb",
-      "tap_git_revision": "917c67484f37e8e455fe987a6e6ea373f95bccd6",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Core application library for C",
       "license": "LGPL-2.1-or-later",
       "homepage": "https://docs.gtk.org/glib/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "/usr/local/Cellar",
       "rebuild": 0,
-      "date": "2026-10-07T12:09:20Z",
+      "date": "2026-11-23T06:49:51Z",
       "tags": {
         "tahoe": {
           "filename": "glib-2.90.1.tahoe.bottle.tar.gz",
           "local_filename": "glib--2.90.1.tahoe.bottle.tar.gz",
-          "sha256": "3b0aaa12be31d6f764cdca91e2a75efe6f317eabba79a48bdf1467217a0ccbab",
+          "sha256": "ce46dc88cf4345b9ae34d4cdfc3a1d913e077c3fa9dbd86f58e9b22835fe5510",
           "tab": {
-            "homebrew_version": "7.0.8",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "bin/gdbus-codegen",
               "bin/glib-gettextize",
@@ -87,16 +87,15 @@
                 "full_name": "json-c",
                 "version": "0.19",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "0.19",
-                "declared_directly": false
+                "declared_directly": false,
+                "compatibility_version": 1
               },
               {
                 "full_name": "libunistring",
-                "version": "1.4.2",
+                "version": "1.5",
                 "revision": 0,
-                "bottle_rebuild": 0,
-                "pkg_version": "1.4.2",
+                "pkg_version": "1.5",
                 "declared_directly": false,
                 "compatibility_version": 1
               },
@@ -104,7 +103,6 @@
                 "full_name": "gettext",
                 "version": "1.0",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "1.0",
                 "declared_directly": true,
                 "compatibility_version": 1
@@ -205,9 +203,6 @@
           "sbom": {
             "documentDescribes": [
               "SPDXRef-Package-SPDXRef-pcre2-10.2e.49",
-              "SPDXRef-Package-SPDXRef-json-c-0.2e.19",
-              "SPDXRef-Package-SPDXRef-libunistring-1.2e.4.2e.2",
-              "SPDXRef-Package-SPDXRef-gettext-1.2e.0",
               "SPDXRef-Compiler"
             ],
             "packages": [
@@ -218,87 +213,18 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "BSD-3-Clause",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/pcre2-10.49.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/pcre2-10.49.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "7fe75e3ba297623163ee0e3a262e417d0eb36342f6cda4135ede90412ff03040"
+                    "checksumValue": "ee933dfaea6f75fc891f16871649d9aa47e37805779f5efd6bdb7a98d4674e99"
                   }
                 ],
                 "externalRefs": [
                   {
                     "referenceCategory": "PACKAGE-MANAGER",
                     "referenceLocator": "pkg:brew/pcre2@10.49",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-json-c-0.2e.19",
-                "name": "json-c",
-                "versionInfo": "0.19",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "MIT",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/json-c-0.19.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "188833fbe1b5b869c90375609885592f87f0ac77580a512e266e9b426cf0a154"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/json-c@0.19",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-libunistring-1.2e.4.2e.2",
-                "name": "libunistring",
-                "versionInfo": "1.4.2",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "GPL-2.0-or-later OR LGPL-3.0-or-later",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/libunistring-1.4.2.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "da6170b1ee63543eaabd1b417aa047c3af1a6b6ea4982178119e499fd9d1a112"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/libunistring@1.4.2",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-gettext-1.2e.0",
-                "name": "gettext",
-                "versionInfo": "1.0",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-or-later",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/gettext-1.0.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "fe9d5337ff31e4f40b827b3463bd3fdc61b8f377277769f71e93baad0443bc96"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/gettext@1.0",
                     "referenceType": "purl"
                   }
                 ]
@@ -319,21 +245,6 @@
             "relationships": [
               {
                 "spdxElementId": "SPDXRef-Package-SPDXRef-pcre2-10.2e.49",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-glib"
-              },
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-json-c-0.2e.19",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-glib"
-              },
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-libunistring-1.2e.4.2e.2",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-glib"
-              },
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-gettext-1.2e.0",
                 "relationshipType": "RUNTIME_DEPENDENCY_OF",
                 "relatedSpdxElement": "SPDXRef-Bottle-glib"
               },
@@ -867,7 +778,7 @@
             "share/locale/zh_HK/LC_MESSAGES/glib20.mo",
             "share/locale/zh_TW/LC_MESSAGES/glib20.mo"
           ],
-          "installed_size": 39111538
+          "installed_size": 39111488
         }
       }
     }

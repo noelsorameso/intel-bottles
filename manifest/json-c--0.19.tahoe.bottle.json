@@ -5,24 +5,24 @@
       "pkg_version": "0.19",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/j/json-c.rb",
       "tap_git_path": "Formula/j/json-c.rb",
-      "tap_git_revision": "74ae27082c23f2c3d5690b20ee5a8dcfb2d47e13",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "JSON parser for C",
       "license": "MIT",
       "homepage": "https://github.com/json-c/json-c/wiki"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-09-04T21:49:52Z",
+      "date": "2026-11-23T06:24:28Z",
       "tags": {
         "tahoe": {
           "filename": "json-c-0.19.tahoe.bottle.tar.gz",
           "local_filename": "json-c--0.19.tahoe.bottle.tar.gz",
-          "sha256": "188833fbe1b5b869c90375609885592f87f0ac77580a512e266e9b426cf0a154",
+          "sha256": "8d9e7bb98e82e5b52a8bde63e7af7ddb8c3edf066f0e952b4d49a1f0bafe0c80",
           "tab": {
-            "homebrew_version": "6.0.21",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/json-c.pc"
             ],
@@ -107,7 +107,7 @@
             "lib/pkgconfig/json-c.pc",
             "sbom.spdx.json"
           ],
-          "installed_size": 327409
+          "installed_size": 327432
         }
       }
     }

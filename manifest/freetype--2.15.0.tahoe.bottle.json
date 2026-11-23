@@ -5,24 +5,24 @@
       "pkg_version": "2.15.0",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/f/freetype.rb",
       "tap_git_path": "Formula/f/freetype.rb",
-      "tap_git_revision": "d11f73f01ecb919029d5f418f2b37554891f79ad",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Software library to render fonts",
       "license": "FTL",
       "homepage": "https://www.freetype.org/"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-15T10:22:27Z",
+      "date": "2026-11-23T06:44:14Z",
       "tags": {
         "tahoe": {
           "filename": "freetype-2.15.0.tahoe.bottle.tar.gz",
           "local_filename": "freetype--2.15.0.tahoe.bottle.tar.gz",
-          "sha256": "df5ad00e9d611b80d19df81741a935c2d9bceef6feb79b4c322dda96507d5d36",
+          "sha256": "fbbeee357388ad37665a52ca255070f5c8bfbf55278c58b676e4190802567bbe",
           "tab": {
-            "homebrew_version": "7.0.9",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "bin/freetype-config",
               "lib/pkgconfig/freetype2.pc"
@@ -36,10 +36,9 @@
             "runtime_dependencies": [
               {
                 "full_name": "brotli",
-                "version": "1.2.0",
+                "version": "1.2.1",
                 "revision": 0,
-                "bottle_rebuild": 0,
-                "pkg_version": "1.2.0",
+                "pkg_version": "1.2.1",
                 "declared_directly": true,
                 "compatibility_version": 1
               },
@@ -77,12 +76,12 @@
                 "filesAnalyzed": false,
                 "licenseDeclared": "NOASSERTION",
                 "licenseConcluded": "libpng-2.0",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/libpng-1.6.59.tahoe.bottle.tar.gz",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/libpng-1.6.59.tahoe.bottle.tar.gz",
                 "copyrightText": "NOASSERTION",
                 "checksums": [
                   {
                     "algorithm": "SHA256",
-                    "checksumValue": "983550222f14d7db234a39119dc66c0de74d9b79b74f83ecf4b81a6b694d40de"
+                    "checksumValue": "914dc75bd40847a190637ca75c60bbd05437e9fc40f5c91cf7a4ddd7a2e14e28"
                   }
                 ],
                 "externalRefs": [
@@ -192,7 +191,7 @@
             "share/aclocal/freetype2.m4",
             "share/man/man1/freetype-config.1"
           ],
-          "installed_size": 2949878
+          "installed_size": 2950007
         }
       }
     }

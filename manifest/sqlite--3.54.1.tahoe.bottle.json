@@ -5,24 +5,24 @@
       "pkg_version": "3.54.1",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/s/sqlite.rb",
       "tap_git_path": "Formula/s/sqlite.rb",
-      "tap_git_revision": "9a284249924617857ca397f3f5208f69f6caf6c4",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Command-line interface for SQLite",
       "license": "blessing",
       "homepage": "https://sqlite.org/index.html"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-18T09:59:07Z",
+      "date": "2026-11-23T06:11:45Z",
       "tags": {
         "tahoe": {
           "filename": "sqlite-3.54.1.tahoe.bottle.tar.gz",
           "local_filename": "sqlite--3.54.1.tahoe.bottle.tar.gz",
-          "sha256": "2795e99d07b8dc3f7b2bc3b35e5d2b39f11b3e5953ffaef9211706f714ffd5cc",
+          "sha256": "a8f494c2b6e0df345bdbaa8dc7c0898b4ea9d0767e6c061e181ab4869a501d10",
           "tab": {
-            "homebrew_version": "7.0.9",
+            "homebrew_version": "7.0.15",
             "changed_files": [
               "lib/pkgconfig/sqlite3.pc"
             ],
@@ -38,7 +38,6 @@
                 "full_name": "readline",
                 "version": "8.3.6",
                 "revision": 0,
-                "bottle_rebuild": 0,
                 "pkg_version": "8.3.6",
                 "declared_directly": true,
                 "compatibility_version": 1
@@ -57,33 +56,9 @@
           "binary_relocation_diagnostics": [],
           "sbom": {
             "documentDescribes": [
-              "SPDXRef-Package-SPDXRef-readline-8.2e.3.2e.6",
               "SPDXRef-Compiler"
             ],
             "packages": [
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-readline-8.2e.3.2e.6",
-                "name": "readline",
-                "versionInfo": "8.3.6",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "GPL-3.0-or-later",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/readline-8.3.6.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "8e2d9a12817040fff1164139282e0d2f7ad2aaf388db15db8eb36a8fb00dd74a"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/readline@8.3.6",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
               {
                 "SPDXID": "SPDXRef-Compiler",
                 "name": "clang",
@@ -98,11 +73,6 @@
               }
             ],
             "relationships": [
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-readline-8.2e.3.2e.6",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-sqlite"
-              },
               {
                 "spdxElementId": "SPDXRef-Compiler",
                 "relationshipType": "BUILD_TOOL_OF",
@@ -128,7 +98,7 @@
             "sbom.spdx.json",
             "share/man/man1/sqlite3.1"
           ],
-          "installed_size": 5335275
+          "installed_size": 5335249
         }
       }
     }

@@ -5,24 +5,24 @@
       "pkg_version": "2.32.74",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/s/sdl2-compat.rb",
       "tap_git_path": "Formula/s/sdl2-compat.rb",
-      "tap_git_revision": "01cc7a89ff52524b999e2e7751af8680f8aab517",
-      "tap_git_remote": "https://github.com/fabiomanz/homebrew-core",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "SDL2 compatibility layer that uses SDL3 behind the scenes",
       "license": "Zlib",
       "homepage": "https://github.com/libsdl-org/sdl2-compat"
     },
     "bottle": {
-      "root_url": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles",
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-10-03T11:20:12Z",
+      "date": "2026-11-23T06:49:50Z",
       "tags": {
         "tahoe": {
           "filename": "sdl2-compat-2.32.74.tahoe.bottle.tar.gz",
           "local_filename": "sdl2-compat--2.32.74.tahoe.bottle.tar.gz",
-          "sha256": "42fee0f4e61686c0e4f1c06d16ab0c01ccf6e3d55f1b29af88cd90472786f959",
+          "sha256": "a0159ee026351553bebc6bf194cd7e528084c67f2c20cffde51cf86df0fd6126",
           "tab": {
-            "homebrew_version": "7.0.7",
+            "homebrew_version": "7.0.15",
             "changed_files": [],
             "linkage_files": [
               "lib/libSDL2-2.0.0.dylib"
@@ -33,10 +33,9 @@
             "runtime_dependencies": [
               {
                 "full_name": "sdl3",
-                "version": "3.4.18",
+                "version": "3.4.20",
                 "revision": 0,
-                "bottle_rebuild": 0,
-                "pkg_version": "3.4.18",
+                "pkg_version": "3.4.20",
                 "declared_directly": true,
                 "compatibility_version": 1
               }
@@ -54,33 +53,9 @@
           "binary_relocation_diagnostics": [],
           "sbom": {
             "documentDescribes": [
-              "SPDXRef-Package-SPDXRef-sdl3-3.4.18",
               "SPDXRef-Compiler"
             ],
             "packages": [
-              {
-                "SPDXID": "SPDXRef-Package-SPDXRef-sdl3-3.4.18",
-                "name": "sdl3",
-                "versionInfo": "3.4.18",
-                "filesAnalyzed": false,
-                "licenseDeclared": "NOASSERTION",
-                "licenseConcluded": "Zlib",
-                "downloadLocation": "https://github.com/fabiomanz/intel-bottles/releases/download/bottles/sdl3-3.4.18.tahoe.bottle.tar.gz",
-                "copyrightText": "NOASSERTION",
-                "checksums": [
-                  {
-                    "algorithm": "SHA256",
-                    "checksumValue": "09f268a724188351f6bda2ddb67a5f01007abfd64c221a1aff949913d5d0f27b"
-                  }
-                ],
-                "externalRefs": [
-                  {
-                    "referenceCategory": "PACKAGE-MANAGER",
-                    "referenceLocator": "pkg:brew/sdl3@3.4.18",
-                    "referenceType": "purl"
-                  }
-                ]
-              },
               {
                 "SPDXID": "SPDXRef-Compiler",
                 "name": "clang",
@@ -95,11 +70,6 @@
               }
             ],
             "relationships": [
-              {
-                "spdxElementId": "SPDXRef-Package-SPDXRef-sdl3-3.4.18",
-                "relationshipType": "RUNTIME_DEPENDENCY_OF",
-                "relatedSpdxElement": "SPDXRef-Bottle-sdl2-compat"
-              },
               {
                 "spdxElementId": "SPDXRef-Compiler",
                 "relationshipType": "BUILD_TOOL_OF",
@@ -229,7 +199,7 @@
             "share/aclocal/sdl2.m4",
             "share/licenses/sdl2-compat/LICENSE.txt"
           ],
-          "installed_size": 3229451
+          "installed_size": 3229448
         }
       }
     }

@@ -5,7 +5,7 @@
       "pkg_version": "2.1.13_1",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/lib/libevent.rb",
       "tap_git_path": "Formula/lib/libevent.rb",
-      "tap_git_revision": "01d4e481e4f1889f980ce6781c9d62f3c4f1dfef",
+      "tap_git_revision": "3af99eddbe65e76346e0ea8cf635d487a6957118",
       "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Asynchronous event library",
       "license": "BSD-3-Clause",
@@ -15,12 +15,12 @@
       "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any",
       "rebuild": 0,
-      "date": "2026-11-22T08:11:26Z",
+      "date": "2026-11-23T06:20:16Z",
       "tags": {
         "tahoe": {
           "filename": "libevent-2.1.13_1.tahoe.bottle.tar.gz",
           "local_filename": "libevent--2.1.13_1.tahoe.bottle.tar.gz",
-          "sha256": "9b245d5d0d7378f544dfba0f1d884982e289a4b7be47ebf190942c4401b26d48",
+          "sha256": "c0f72ac6976cb597e250bab8243a24f6e101743f44da0d3e13051ca664ffbf96",
           "tab": {
             "homebrew_version": "7.0.15",
             "changed_files": [
