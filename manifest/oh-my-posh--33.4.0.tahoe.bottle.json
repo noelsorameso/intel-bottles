@@ -2,10 +2,10 @@
   "oh-my-posh": {
     "formula": {
       "name": "oh-my-posh",
-      "pkg_version": "33.3.1",
+      "pkg_version": "33.4.0",
       "path": "Library/Taps/homebrew/homebrew-core/Formula/o/oh-my-posh.rb",
       "tap_git_path": "Formula/o/oh-my-posh.rb",
-      "tap_git_revision": "eec94725e0c6024c3c3d5815a37f05ae8e5070d8",
+      "tap_git_revision": "c6b35ace8cd85d5c17a5d54c37463aaaeed5d4bf",
       "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
       "desc": "Prompt theme engine for any shell",
       "license": "MIT",
@@ -15,18 +15,18 @@
       "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
       "cellar": "any_skip_relocation",
       "rebuild": 0,
-      "date": "2026-11-23T15:01:56Z",
+      "date": "2026-11-24T15:18:53Z",
       "tags": {
         "tahoe": {
-          "filename": "oh-my-posh-33.3.1.tahoe.bottle.tar.gz",
-          "local_filename": "oh-my-posh--33.3.1.tahoe.bottle.tar.gz",
-          "sha256": "a1fe6f94efe1f3c39a8b717dafc431fd72bda9de870446be5b372a979959e9fb",
+          "filename": "oh-my-posh-33.4.0.tahoe.bottle.tar.gz",
+          "local_filename": "oh-my-posh--33.4.0.tahoe.bottle.tar.gz",
+          "sha256": "57bdceacc37bae5b3d4949f272a2739913b07e3ed8f3e314f0f959110b88ce19",
           "tab": {
             "homebrew_version": "7.0.16",
             "changed_files": [],
             "linkage_files": [],
             "binary_relocation_files": [],
-            "source_modified_time": 1795417914,
+            "source_modified_time": 1795458316,
             "compiler": "clang",
             "runtime_dependencies": [],
             "arch": "x86_64",
@@ -203,7 +203,7 @@
             "themes/ys.omp.json",
             "themes/zash.omp.json"
           ],
-          "installed_size": 15208868
+          "installed_size": 15227868
         }
       }
     }

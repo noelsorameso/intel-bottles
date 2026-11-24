@@ -1,0 +1,186 @@
+{
+  "hello": {
+    "formula": {
+      "name": "hello",
+      "pkg_version": "2.12.3",
+      "path": "Library/Taps/homebrew/homebrew-core/Formula/h/hello.rb",
+      "tap_git_path": "Formula/h/hello.rb",
+      "tap_git_revision": "c6b35ace8cd85d5c17a5d54c37463aaaeed5d4bf",
+      "tap_git_remote": "https://github.com/noelsorameso/homebrew-core",
+      "desc": "Program providing model for GNU coding standards and practices",
+      "license": "GPL-3.0-or-later",
+      "homepage": "https://www.gnu.org/software/hello/"
+    },
+    "bottle": {
+      "root_url": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles",
+      "cellar": "/usr/local/Cellar",
+      "rebuild": 0,
+      "date": "2026-11-24T15:16:13Z",
+      "tags": {
+        "tahoe": {
+          "filename": "hello-2.12.3.tahoe.bottle.tar.gz",
+          "local_filename": "hello--2.12.3.tahoe.bottle.tar.gz",
+          "sha256": "52cc9214bf1475692eb285a32f24675428a088aa8e1f4d7da1babdce1b70b652",
+          "tab": {
+            "homebrew_version": "7.0.16",
+            "changed_files": [],
+            "linkage_files": [
+              "bin/hello"
+            ],
+            "binary_relocation_files": [
+              "bin/hello"
+            ],
+            "source_modified_time": 1773804383,
+            "compiler": "clang",
+            "runtime_dependencies": [
+              {
+                "full_name": "gettext",
+                "version": "1.0",
+                "revision": 0,
+                "bottle_rebuild": 0,
+                "pkg_version": "1.0",
+                "declared_directly": false,
+                "compatibility_version": 1
+              }
+            ],
+            "arch": "x86_64",
+            "built_on": {
+              "os": "Macintosh",
+              "os_version": "macOS 26.6",
+              "cpu_family": "ivybridge",
+              "xcode": "26.6",
+              "clt": "26.6.0.0.1781586589",
+              "preferred_perl": "5.34"
+            }
+          },
+          "binary_relocation_diagnostics": [
+            {
+              "path": "bin/hello",
+              "string": "/usr/local/Cellar/hello/2.12.3/share/locale",
+              "offset": 35175
+            }
+          ],
+          "sbom": {
+            "documentDescribes": [
+              "SPDXRef-Package-SPDXRef-gettext-1.2e.0",
+              "SPDXRef-Compiler"
+            ],
+            "packages": [
+              {
+                "SPDXID": "SPDXRef-Package-SPDXRef-gettext-1.2e.0",
+                "name": "gettext",
+                "versionInfo": "1.0",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "GPL-3.0-or-later AND LGPL-2.1-or-later",
+                "downloadLocation": "https://github.com/noelsorameso/intel-bottles/releases/download/bottles/gettext-1.0.tahoe.bottle.tar.gz",
+                "copyrightText": "NOASSERTION",
+                "checksums": [
+                  {
+                    "algorithm": "SHA256",
+                    "checksumValue": "15a140f63560b5f3b17f89011d1e568c1ce9d7d177792901e4be86e94b9d4a3a"
+                  }
+                ],
+                "externalRefs": [
+                  {
+                    "referenceCategory": "PACKAGE-MANAGER",
+                    "referenceLocator": "pkg:brew/gettext@1.0",
+                    "referenceType": "purl"
+                  }
+                ]
+              },
+              {
+                "SPDXID": "SPDXRef-Compiler",
+                "name": "clang",
+                "versionInfo": "26.6",
+                "filesAnalyzed": false,
+                "licenseDeclared": "NOASSERTION",
+                "licenseConcluded": "NOASSERTION",
+                "copyrightText": "NOASSERTION",
+                "downloadLocation": "NOASSERTION",
+                "checksums": [],
+                "externalRefs": []
+              }
+            ],
+            "relationships": [
+              {
+                "spdxElementId": "SPDXRef-Package-SPDXRef-gettext-1.2e.0",
+                "relationshipType": "RUNTIME_DEPENDENCY_OF",
+                "relatedSpdxElement": "SPDXRef-Bottle-hello"
+              },
+              {
+                "spdxElementId": "SPDXRef-Compiler",
+                "relationshipType": "BUILD_TOOL_OF",
+                "relatedSpdxElement": "SPDXRef-Archive-hello-src"
+              }
+            ]
+          },
+          "path_exec_files": [
+            "bin/hello"
+          ],
+          "all_files": [
+            ".brew/hello.rb",
+            "AUTHORS",
+            "COPYING",
+            "ChangeLog",
+            "INSTALL_RECEIPT.json",
+            "NEWS",
+            "README",
+            "TODO",
+            "bin/hello",
+            "sbom.spdx.json",
+            "share/info/hello.info",
+            "share/locale/ast/LC_MESSAGES/hello.mo",
+            "share/locale/bg/LC_MESSAGES/hello.mo",
+            "share/locale/ca/LC_MESSAGES/hello.mo",
+            "share/locale/cs/LC_MESSAGES/hello.mo",
+            "share/locale/da/LC_MESSAGES/hello.mo",
+            "share/locale/de/LC_MESSAGES/hello.mo",
+            "share/locale/el/LC_MESSAGES/hello.mo",
+            "share/locale/eo/LC_MESSAGES/hello.mo",
+            "share/locale/es/LC_MESSAGES/hello.mo",
+            "share/locale/et/LC_MESSAGES/hello.mo",
+            "share/locale/eu/LC_MESSAGES/hello.mo",
+            "share/locale/fa/LC_MESSAGES/hello.mo",
+            "share/locale/fi/LC_MESSAGES/hello.mo",
+            "share/locale/fr/LC_MESSAGES/hello.mo",
+            "share/locale/ga/LC_MESSAGES/hello.mo",
+            "share/locale/gl/LC_MESSAGES/hello.mo",
+            "share/locale/he/LC_MESSAGES/hello.mo",
+            "share/locale/hr/LC_MESSAGES/hello.mo",
+            "share/locale/hu/LC_MESSAGES/hello.mo",
+            "share/locale/id/LC_MESSAGES/hello.mo",
+            "share/locale/it/LC_MESSAGES/hello.mo",
+            "share/locale/ja/LC_MESSAGES/hello.mo",
+            "share/locale/ka/LC_MESSAGES/hello.mo",
+            "share/locale/ko/LC_MESSAGES/hello.mo",
+            "share/locale/lv/LC_MESSAGES/hello.mo",
+            "share/locale/ms/LC_MESSAGES/hello.mo",
+            "share/locale/nb/LC_MESSAGES/hello.mo",
+            "share/locale/nl/LC_MESSAGES/hello.mo",
+            "share/locale/nn/LC_MESSAGES/hello.mo",
+            "share/locale/pl/LC_MESSAGES/hello.mo",
+            "share/locale/pt/LC_MESSAGES/hello.mo",
+            "share/locale/pt_BR/LC_MESSAGES/hello.mo",
+            "share/locale/ro/LC_MESSAGES/hello.mo",
+            "share/locale/ru/LC_MESSAGES/hello.mo",
+            "share/locale/scn/LC_MESSAGES/hello.mo",
+            "share/locale/sk/LC_MESSAGES/hello.mo",
+            "share/locale/sl/LC_MESSAGES/hello.mo",
+            "share/locale/sr/LC_MESSAGES/hello.mo",
+            "share/locale/sv/LC_MESSAGES/hello.mo",
+            "share/locale/ta/LC_MESSAGES/hello.mo",
+            "share/locale/th/LC_MESSAGES/hello.mo",
+            "share/locale/tr/LC_MESSAGES/hello.mo",
+            "share/locale/uk/LC_MESSAGES/hello.mo",
+            "share/locale/vi/LC_MESSAGES/hello.mo",
+            "share/locale/zh_CN/LC_MESSAGES/hello.mo",
+            "share/locale/zh_TW/LC_MESSAGES/hello.mo",
+            "share/man/man1/hello.1"
+          ],
+          "installed_size": 338855
+        }
+      }
+    }
+  }
+}
